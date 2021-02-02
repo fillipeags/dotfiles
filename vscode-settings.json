@@ -43,5 +43,63 @@
     "polacode.transparentBackground": true,
     "polacode.shadow": "rgba(0, 0, 0, 0) 0px 20px 68px",
     "diffEditor.ignoreTrimWhitespace": false,
-    "python.pythonPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3"
+    "python.pythonPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+    "better-comments.tags": [
+
+
+      {
+        "tag": "!",
+        "color": "#FF2D00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "?",
+        "color": "#3498DB",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "//",
+        "color": "#3498DB",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "todo",
+        "color": "#FF8C00",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "*",
+        "color": "#98C379",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "better-comments.highlightPlainText": true,
+    "better-comments.multilineComments": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.minimap.maxColumn": 150,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+
   }
