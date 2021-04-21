@@ -6,12 +6,13 @@
     "workbench.startupEditor": "newUntitledFile",
   
     // Editor settings
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "editor.lineHeight": 30,
     "terminal.integrated.fontSize": 16,
     "editor.codeActionsOnSave": {
-      "source.fixAll": true
+      "source.fixAll.eslint": true
     },
+    
     "editor.tabSize": 2,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -22,7 +23,6 @@
     // VSCode stuff
     "terminal.integrated.shell.osx": "/bin/zsh",
     "breadcrumbs.enabled": true,
-    "window.zoomLevel": 0,
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -100,6 +100,10 @@
     "liveServer.settings.CustomBrowser": "chrome",
     "editor.minimap.maxColumn": 150,
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": true,
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "window.zoomLevel": -1
 
   }
